@@ -1,0 +1,124 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.p-20{
+  padding: 20px;
+}
+
+.p-t-b{
+  padding: 30px 0px;
+}
+
+.var {
+    padding: 10px 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.column {
+    padding: 40px 0px;
+    column-count: 2;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sub-title {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.titulo-articulo{
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bg-light{
+  background: #edf2f6 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #edf2f6 !important;
+}
+
+.table td, .table th {
+    border-top: 1px solid #eee;
+}
+
+.bg-dark{
+  background-color: #fff !important;
+}
+
+.navbar-dark .navbar-brand{
+  color: #333;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+i.fas.fa-chart-line {
+  padding-right: 5px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #333;
+    border-color: #eee;
+}
+
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #666;
+}
+
+
+.precio-container{
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.ngr{
+  font-weight: 700;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+div#historico_wrapper {
+    padding: 40px 0px;
+}

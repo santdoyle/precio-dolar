@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /wp-login
+Disallow: /wp-admin
+Disallow: /*/feed/
+Disallow: /*/trackback/
+Disallow: /*/attachment/
+Disallow: /author/
+Disallow: *?replytocom
+Disallow: /tag/*/page/
+Disallow: /tag/*/feed/
+Disallow: /comments/
+Disallow: /xmlrpc.php
+Disallow: /*?s=
+Disallow: /*/*/*/feed.xml
+Disallow: /cdn-cgi/
+Disallow: /?attachment_id*
+Disallow: /*?__hstc=*
+Disallow: /*?hl=*
+Disallow: /*/page/*
+
+Sitemap: https://comprardolareshoy.com.ar/sitemap.xml
